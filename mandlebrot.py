@@ -38,7 +38,7 @@ cols = 2000
 rows = 2000
 canvas = numpy.zeros([rows, cols])
 
-## Increasing maxIterations produces a finer grid.
+## Increasing maxIterations increases confidence in divergence.
 maxIterations = 100
 
 for row, real in enumerate(numpy.linspace(-2, 2, num=rows)):
